@@ -36,6 +36,10 @@ public:
         state = value;
     }
 
+    void set_position(Location current){
+        position = current;
+    }
+
     int get_id(int id){
         return id_vehicle;
     }
@@ -45,10 +49,16 @@ public:
         return state;
     }
 
+    Location get_position(){
+        return position;
+    }
+
+
 private:
-    int id_vehicle{};
+    int id_vehicle;
     Vehicle::STATUS state;
     int capacity;
+    Location position;
 };
 
 

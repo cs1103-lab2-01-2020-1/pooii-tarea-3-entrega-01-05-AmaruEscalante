@@ -9,8 +9,7 @@
 #include "User.h"
 #include "Product.h"
 #include "Vehicle.h"
-
-
+#include "Location.h"
 
 class Order {
 public:
@@ -25,6 +24,10 @@ public:
         order_state = PROCESSING;
     }
 
+    void set_orderid(int orderid){
+        order_id = orderid;
+    }
+
     void set_vehicle(Vehicle vehicleoforder){
         vehicle = vehicleoforder;
     }
@@ -33,23 +36,45 @@ public:
         order_state = stateoforder;
     }
 
-
     void add_product(Product p){
         product.push_back(p);
         price += p.get_price();
     }
 
-    void track_order(){
-        int i = 1;
+    void set_destination(Location location) {
+        destination = location;
+    }
 
+    void get_listofproducts(){
+        int i = 1;
         for (auto& item:this->product) {
             cout << i << ". "<< item.get_name() << endl;
             i++;
         }
+    }
 
-        cout << "Total price: " << price << endl;
+    int get_order_id(){
+        return order_id;
+    }
 
-        cout << "State"<< endl;
+    Location get_order_destination(){
+        return destination;
+    }
+
+    Vehicle get_vehicle(){
+        return vehicle;
+    }
+
+    ORD_STATUS get_status(){
+        return order_state;
+    }
+
+    double get_price(){
+        return price;
+    }
+
+    User get_user(){
+        return user;
     }
 
 private:
@@ -59,6 +84,7 @@ private:
     ORD_STATUS order_state;
     double price;
     Vehicle vehicle;
+    Location destination;
 };
 
 

@@ -42,8 +42,8 @@ public:
         return name;
     }
 
-    string get_location(){
-        return location.get_address();
+    Location get_location(){
+        return location;
     }
 
     void print_user(){

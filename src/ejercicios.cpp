@@ -5,6 +5,23 @@
 
 void ejercicio1(){
     //Set locations
+    Location Lima, Tienda;
+    Lima.set_address("La Molina 123");
+    Tienda.set_address("Surco 123");
+
+    System system;
+    cout<< "\t::::::::::::::::::Delivery system::::::::::::::::::::" << endl;
+
+    Truck truck1;
+    truck1.set_id(1);
+    truck1.set_position(Tienda);
+    Bike bike1;
+    bike1.set_id(2);
+    bike1.set_position(Tienda);
+
+    system.add_vehicles(truck1);
+    system.add_vehicles(bike1);
+
     Product ball;
     ball.set_product_id(001);
     ball.set_name("Basketball");
@@ -15,17 +32,6 @@ void ejercicio1(){
     computer.set_name("Macbook");
     computer.set_price(3000);
 
-
-    Location Lima, Tienda;
-    Lima.set_address("La Molina 123");
-    Tienda.set_address("Surco 123");
-
-    Truck truck1;
-    truck1.set_id(1);
-    Bike bike1;
-    bike1.set_id(2);
-
-    cout<< "Delivery system" << endl;
     User user1;
     user1.set_user_id(001);
     string name;
@@ -37,12 +43,19 @@ void ejercicio1(){
     cout << "User1 Registered" << endl;
     user1.print_user();
 
-    cout << "Order" << endl;
+    cout << "You have purchased the following order: " << endl;
     Order order1;
+    order1.set_orderid(1);
     order1.add_product(ball);
     order1.add_product(computer);
-    cout << "Track" << endl;
-    order1.track_order();
+    order1.set_destination(user1.get_location());
+    order1.get_listofproducts();
+
+    cout << "Track order" << endl;
+    system.set_vehicleoforder(order1,truck1);
+    system.add_order(order1);
+    system.process_order(order1);
+    system.track_order(order1);
 }
 void ejercicio2(){
     LIFO_Simple s(10);
