@@ -7,7 +7,7 @@
 
 #define MAX 1000
 
-#include "../tipos.h"
+#include "../lib.h"
 
 template <typename T>
 class LIFO {

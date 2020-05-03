@@ -7,19 +7,20 @@
 
 #include <utility>
 
-#include "../tipos.h"
+#include "../lib.h"
+#include "Location.h"
 
 class User {
 private:
     int user_id{};
     string name;
-    string location;
+    Location location;
 public:
     User()= default;
-    User(int p_user_id, string p_name, string p_location){
+    User(int p_user_id, string p_name, Location p_location){
         user_id = p_user_id;
         name = move(p_name);
-        location = move(p_location);
+        location.set_address(p_location.get_address());
     }
 
     void set_user_id(int value){
@@ -29,8 +30,8 @@ public:
         name = std::move(value);
     }
 
-    void set_location(string value){
-        location = std::move(value);
+    void set_location(Location address){
+        location = std::move(address);
     }
 
     int get_user_id(){
@@ -42,13 +43,13 @@ public:
     }
 
     string get_location(){
-        return location;
+        return location.get_address();
     }
 
     void print_user(){
         cout << "ID: " << user_id << endl;
         cout << "Name: " <<name<< endl;
-        cout << "Location: " <<location<< endl;
+        cout << "Location: " << location.get_address() << endl;
     }
 };
 

@@ -5,7 +5,7 @@
 #ifndef TAREA3_LIFO_SIMPLE_H
 #define TAREA3_LIFO_SIMPLE_H
 
-#include "../tipos.h"
+#include "../lib.h"
 
 #define MAX 1000
 

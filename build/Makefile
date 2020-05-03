@@ -177,114 +177,6 @@ src/clases/LIFO_Simple.cpp.s:
 	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.s
 .PHONY : src/clases/LIFO_Simple.cpp.s
 
-src/clases/Order.o: src/clases/Order.cpp.o
-
-.PHONY : src/clases/Order.o
-
-# target to build an object file
-src/clases/Order.cpp.o:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Order.cpp.o
-.PHONY : src/clases/Order.cpp.o
-
-src/clases/Order.i: src/clases/Order.cpp.i
-
-.PHONY : src/clases/Order.i
-
-# target to preprocess a source file
-src/clases/Order.cpp.i:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Order.cpp.i
-.PHONY : src/clases/Order.cpp.i
-
-src/clases/Order.s: src/clases/Order.cpp.s
-
-.PHONY : src/clases/Order.s
-
-# target to generate assembly for a file
-src/clases/Order.cpp.s:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Order.cpp.s
-.PHONY : src/clases/Order.cpp.s
-
-src/clases/Product.o: src/clases/Product.cpp.o
-
-.PHONY : src/clases/Product.o
-
-# target to build an object file
-src/clases/Product.cpp.o:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Product.cpp.o
-.PHONY : src/clases/Product.cpp.o
-
-src/clases/Product.i: src/clases/Product.cpp.i
-
-.PHONY : src/clases/Product.i
-
-# target to preprocess a source file
-src/clases/Product.cpp.i:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Product.cpp.i
-.PHONY : src/clases/Product.cpp.i
-
-src/clases/Product.s: src/clases/Product.cpp.s
-
-.PHONY : src/clases/Product.s
-
-# target to generate assembly for a file
-src/clases/Product.cpp.s:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Product.cpp.s
-.PHONY : src/clases/Product.cpp.s
-
-src/clases/User.o: src/clases/User.cpp.o
-
-.PHONY : src/clases/User.o
-
-# target to build an object file
-src/clases/User.cpp.o:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/User.cpp.o
-.PHONY : src/clases/User.cpp.o
-
-src/clases/User.i: src/clases/User.cpp.i
-
-.PHONY : src/clases/User.i
-
-# target to preprocess a source file
-src/clases/User.cpp.i:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/User.cpp.i
-.PHONY : src/clases/User.cpp.i
-
-src/clases/User.s: src/clases/User.cpp.s
-
-.PHONY : src/clases/User.s
-
-# target to generate assembly for a file
-src/clases/User.cpp.s:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/User.cpp.s
-.PHONY : src/clases/User.cpp.s
-
-src/clases/Vehicle.o: src/clases/Vehicle.cpp.o
-
-.PHONY : src/clases/Vehicle.o
-
-# target to build an object file
-src/clases/Vehicle.cpp.o:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o
-.PHONY : src/clases/Vehicle.cpp.o
-
-src/clases/Vehicle.i: src/clases/Vehicle.cpp.i
-
-.PHONY : src/clases/Vehicle.i
-
-# target to preprocess a source file
-src/clases/Vehicle.cpp.i:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.i
-.PHONY : src/clases/Vehicle.cpp.i
-
-src/clases/Vehicle.s: src/clases/Vehicle.cpp.s
-
-.PHONY : src/clases/Vehicle.s
-
-# target to generate assembly for a file
-src/clases/Vehicle.cpp.s:
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.s
-.PHONY : src/clases/Vehicle.cpp.s
-
 src/ejercicios.o: src/ejercicios.cpp.o
 
 .PHONY : src/ejercicios.o
@@ -311,6 +203,33 @@ src/ejercicios.s: src/ejercicios.cpp.s
 src/ejercicios.cpp.s:
 	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/ejercicios.cpp.s
 .PHONY : src/ejercicios.cpp.s
+
+src/funciones.o: src/funciones.cpp.o
+
+.PHONY : src/funciones.o
+
+# target to build an object file
+src/funciones.cpp.o:
+	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/funciones.cpp.o
+.PHONY : src/funciones.cpp.o
+
+src/funciones.i: src/funciones.cpp.i
+
+.PHONY : src/funciones.i
+
+# target to preprocess a source file
+src/funciones.cpp.i:
+	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/funciones.cpp.i
+.PHONY : src/funciones.cpp.i
+
+src/funciones.s: src/funciones.cpp.s
+
+.PHONY : src/funciones.s
+
+# target to generate assembly for a file
+src/funciones.cpp.s:
+	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/funciones.cpp.s
+.PHONY : src/funciones.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -354,21 +273,12 @@ help:
 	@echo "... src/clases/LIFO_Simple.o"
 	@echo "... src/clases/LIFO_Simple.i"
 	@echo "... src/clases/LIFO_Simple.s"
-	@echo "... src/clases/Order.o"
-	@echo "... src/clases/Order.i"
-	@echo "... src/clases/Order.s"
-	@echo "... src/clases/Product.o"
-	@echo "... src/clases/Product.i"
-	@echo "... src/clases/Product.s"
-	@echo "... src/clases/User.o"
-	@echo "... src/clases/User.i"
-	@echo "... src/clases/User.s"
-	@echo "... src/clases/Vehicle.o"
-	@echo "... src/clases/Vehicle.i"
-	@echo "... src/clases/Vehicle.s"
 	@echo "... src/ejercicios.o"
 	@echo "... src/ejercicios.i"
 	@echo "... src/ejercicios.s"
+	@echo "... src/funciones.o"
+	@echo "... src/funciones.i"
+	@echo "... src/funciones.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

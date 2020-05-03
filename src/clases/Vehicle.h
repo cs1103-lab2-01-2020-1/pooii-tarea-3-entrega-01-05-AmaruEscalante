@@ -5,11 +5,11 @@
 #ifndef EJERCICIO1_VEHICLE_H
 #define EJERCICIO1_VEHICLE_H
 
-#include "../tipos.h"
+#include "../lib.h"
 
 class Vehicle {
 private:
-    int id_vehicle{};
+    int id_vehicle;
     string name;
     string state;
 public:

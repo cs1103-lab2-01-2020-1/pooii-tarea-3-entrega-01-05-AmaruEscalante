@@ -2,9 +2,13 @@
 // Created by amaru on 5/2/20.
 //
 #include "ejercicios.h"
-#include "funciones.cpp"
 
 void ejercicio1(){
+    //Set locations
+    Location Lima, Tienda;
+    Lima.set_address("La Molina 123");
+    Tienda.set_address("Surco 123");
+
     Vehicle v1;
     v1.set_id(1);
     v1.set_name("Bike");
@@ -18,7 +22,7 @@ void ejercicio1(){
     cout<< "Delivery system" << endl;
     User user1;
     user1.set_name("Raul Lopez");
-    user1.set_location("La Molina");
+    user1.set_location(Lima);
     user1.set_user_id(001);
     cout << "User1 Registered" << endl;
     user1.print_user();

@@ -5,7 +5,7 @@
 #ifndef EJERCICIO1_ORDER_H
 #define EJERCICIO1_ORDER_H
 
-#include "../tipos.h"
+#include "../lib.h"
 #include "User.h"
 #include "Product.h"
 #include "Vehicle.h"

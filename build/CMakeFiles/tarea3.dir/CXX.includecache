@@ -11,24 +11,24 @@ LIFO.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO.h
-../tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO_Simple.cpp
 LIFO_Simple.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO_Simple.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO_Simple.h
-../tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.cpp
-Order.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Location.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.h
-../tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 User.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.h
 Product.h
@@ -36,41 +36,29 @@ Product.h
 Vehicle.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.h
 
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.cpp
-Product.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.h
-
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.h
-../tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
-
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.cpp
-User.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.h
 utility
 -
-../tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
-
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.cpp
-Vehicle.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
+Location.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Location.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.h
-../tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+../lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/ejercicios.cpp
 ejercicios.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/ejercicios.h
-funciones.cpp
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.cpp
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/ejercicios.h
-tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 funciones.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.h
 clases/Order.h
@@ -81,6 +69,8 @@ clases/User.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.h
 clases/Product.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.h
+clases/Location.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Location.h
 clases/LIFO_Simple.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO_Simple.h
 clases/LIFO.h
@@ -93,14 +83,10 @@ funciones.h
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.h
 
 /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.h
-tipos.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+lib.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/main.cpp
-ejercicios.h
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/ejercicios.h
-
-/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/tipos.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/lib.h
 iostream
 -
 string
@@ -111,4 +97,8 @@ list
 -
 algorithm
 -
+
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/main.cpp
+ejercicios.h
+/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/ejercicios.h
 

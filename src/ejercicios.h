@@ -5,17 +5,20 @@
 #ifndef TAREA3_EJERCICIOS_H
 #define TAREA3_EJERCICIOS_H
 
-#include "tipos.h"
+#include "lib.h"
 #include "funciones.h"
+
+//Delivery system design
 #include "clases/Order.h"
 #include "clases/Vehicle.h"
 #include "clases/User.h"
 #include "clases/Product.h"
+#include "clases/Location.h"
+
+//LIFO data structures
 #include "clases/LIFO_Simple.h"
 #include "clases/LIFO.h"
 #include "clases/LIFO.cpp"
-
-//#include "clases/LIFO_Simple.cpp"
 
 void ejercicio1();
 void ejercicio2();

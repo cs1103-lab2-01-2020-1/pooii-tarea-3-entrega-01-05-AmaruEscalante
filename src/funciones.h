@@ -5,7 +5,7 @@
 #ifndef FUNCIONES_H
 #define FUNCIONES_H
 
-#include "tipos.h"
+#include "lib.h"
 
 void print_list(list<int> lista);
 

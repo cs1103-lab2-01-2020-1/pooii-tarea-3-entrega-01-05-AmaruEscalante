@@ -2,8 +2,8 @@
 // Created by amaru on 5/2/20.
 //
 
-#ifndef TAREA3_TIPOS_H
-#define TAREA3_TIPOS_H
+#ifndef TAREA3_LIB_H
+#define TAREA3_LIB_H
 
 #include <iostream>
 #include <string>
@@ -13,4 +13,4 @@
 
 using namespace std;
 
-#endif //TAREA3_TIPOS_H
+#endif //TAREA3_LIB_H

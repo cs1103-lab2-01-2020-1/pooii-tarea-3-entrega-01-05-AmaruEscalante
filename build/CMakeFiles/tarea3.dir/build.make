@@ -81,9 +81,33 @@ CMakeFiles/tarea3.dir/src/ejercicios.cpp.o.provides: CMakeFiles/tarea3.dir/src/e
 CMakeFiles/tarea3.dir/src/ejercicios.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/ejercicios.cpp.o
 
 
+CMakeFiles/tarea3.dir/src/funciones.cpp.o: CMakeFiles/tarea3.dir/flags.make
+CMakeFiles/tarea3.dir/src/funciones.cpp.o: ../src/funciones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tarea3.dir/src/funciones.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/funciones.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.cpp
+
+CMakeFiles/tarea3.dir/src/funciones.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea3.dir/src/funciones.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.cpp > CMakeFiles/tarea3.dir/src/funciones.cpp.i
+
+CMakeFiles/tarea3.dir/src/funciones.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea3.dir/src/funciones.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.cpp -o CMakeFiles/tarea3.dir/src/funciones.cpp.s
+
+CMakeFiles/tarea3.dir/src/funciones.cpp.o.requires:
+
+.PHONY : CMakeFiles/tarea3.dir/src/funciones.cpp.o.requires
+
+CMakeFiles/tarea3.dir/src/funciones.cpp.o.provides: CMakeFiles/tarea3.dir/src/funciones.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/funciones.cpp.o.provides.build
+.PHONY : CMakeFiles/tarea3.dir/src/funciones.cpp.o.provides
+
+CMakeFiles/tarea3.dir/src/funciones.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/funciones.cpp.o
+
+
 CMakeFiles/tarea3.dir/src/main.cpp.o: CMakeFiles/tarea3.dir/flags.make
 CMakeFiles/tarea3.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tarea3.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tarea3.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/main.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/main.cpp
 
 CMakeFiles/tarea3.dir/src/main.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/tarea3.dir/src/main.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/m
 
 CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o: CMakeFiles/tarea3.dir/flags.make
 CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o: ../src/clases/LIFO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO.cpp
 
 CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o.provides.build: CMakeFiles/tarea3.di
 
 CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o: CMakeFiles/tarea3.dir/flags.make
 CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o: ../src/clases/LIFO_Simple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO_Simple.cpp
 
 CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.i: cmake_force
@@ -153,127 +177,25 @@ CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o.provides: CMakeFiles/tarea3.d
 CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o
 
 
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.o: CMakeFiles/tarea3.dir/flags.make
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.o: ../src/clases/Order.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tarea3.dir/src/clases/Order.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/clases/Order.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.cpp
-
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea3.dir/src/clases/Order.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.cpp > CMakeFiles/tarea3.dir/src/clases/Order.cpp.i
-
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea3.dir/src/clases/Order.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.cpp -o CMakeFiles/tarea3.dir/src/clases/Order.cpp.s
-
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.requires:
-
-.PHONY : CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.requires
-
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.provides: CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.provides.build
-.PHONY : CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.provides
-
-CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/clases/Order.cpp.o
-
-
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.o: CMakeFiles/tarea3.dir/flags.make
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.o: ../src/clases/Product.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tarea3.dir/src/clases/Product.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/clases/Product.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.cpp
-
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea3.dir/src/clases/Product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.cpp > CMakeFiles/tarea3.dir/src/clases/Product.cpp.i
-
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea3.dir/src/clases/Product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.cpp -o CMakeFiles/tarea3.dir/src/clases/Product.cpp.s
-
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.requires:
-
-.PHONY : CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.requires
-
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.provides: CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.provides.build
-.PHONY : CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.provides
-
-CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/clases/Product.cpp.o
-
-
-CMakeFiles/tarea3.dir/src/clases/User.cpp.o: CMakeFiles/tarea3.dir/flags.make
-CMakeFiles/tarea3.dir/src/clases/User.cpp.o: ../src/clases/User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tarea3.dir/src/clases/User.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/clases/User.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.cpp
-
-CMakeFiles/tarea3.dir/src/clases/User.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea3.dir/src/clases/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.cpp > CMakeFiles/tarea3.dir/src/clases/User.cpp.i
-
-CMakeFiles/tarea3.dir/src/clases/User.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea3.dir/src/clases/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.cpp -o CMakeFiles/tarea3.dir/src/clases/User.cpp.s
-
-CMakeFiles/tarea3.dir/src/clases/User.cpp.o.requires:
-
-.PHONY : CMakeFiles/tarea3.dir/src/clases/User.cpp.o.requires
-
-CMakeFiles/tarea3.dir/src/clases/User.cpp.o.provides: CMakeFiles/tarea3.dir/src/clases/User.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/User.cpp.o.provides.build
-.PHONY : CMakeFiles/tarea3.dir/src/clases/User.cpp.o.provides
-
-CMakeFiles/tarea3.dir/src/clases/User.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/clases/User.cpp.o
-
-
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o: CMakeFiles/tarea3.dir/flags.make
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o: ../src/clases/Vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o -c /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.cpp
-
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.cpp > CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.i
-
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.cpp -o CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.s
-
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.requires:
-
-.PHONY : CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.requires
-
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.provides: CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tarea3.dir/build.make CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.provides.build
-.PHONY : CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.provides
-
-CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.provides.build: CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o
-
-
 # Object files for target tarea3
 tarea3_OBJECTS = \
 "CMakeFiles/tarea3.dir/src/ejercicios.cpp.o" \
+"CMakeFiles/tarea3.dir/src/funciones.cpp.o" \
 "CMakeFiles/tarea3.dir/src/main.cpp.o" \
 "CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o" \
-"CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o" \
-"CMakeFiles/tarea3.dir/src/clases/Order.cpp.o" \
-"CMakeFiles/tarea3.dir/src/clases/Product.cpp.o" \
-"CMakeFiles/tarea3.dir/src/clases/User.cpp.o" \
-"CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o"
+"CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o"
 
 # External object files for target tarea3
 tarea3_EXTERNAL_OBJECTS =
 
 tarea3: CMakeFiles/tarea3.dir/src/ejercicios.cpp.o
+tarea3: CMakeFiles/tarea3.dir/src/funciones.cpp.o
 tarea3: CMakeFiles/tarea3.dir/src/main.cpp.o
 tarea3: CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o
 tarea3: CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o
-tarea3: CMakeFiles/tarea3.dir/src/clases/Order.cpp.o
-tarea3: CMakeFiles/tarea3.dir/src/clases/Product.cpp.o
-tarea3: CMakeFiles/tarea3.dir/src/clases/User.cpp.o
-tarea3: CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o
 tarea3: CMakeFiles/tarea3.dir/build.make
 tarea3: CMakeFiles/tarea3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tarea3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tarea3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tarea3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -282,13 +204,10 @@ CMakeFiles/tarea3.dir/build: tarea3
 .PHONY : CMakeFiles/tarea3.dir/build
 
 CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/ejercicios.cpp.o.requires
+CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/funciones.cpp.o.requires
 CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/main.cpp.o.requires
 CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o.requires
 CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o.requires
-CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/clases/Order.cpp.o.requires
-CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/clases/Product.cpp.o.requires
-CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/clases/User.cpp.o.requires
-CMakeFiles/tarea3.dir/requires: CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o.requires
 
 .PHONY : CMakeFiles/tarea3.dir/requires
 

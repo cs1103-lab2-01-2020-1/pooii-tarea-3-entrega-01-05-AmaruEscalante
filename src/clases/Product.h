@@ -5,7 +5,7 @@
 #ifndef EJERCICIO1_PRODUCT_H
 #define EJERCICIO1_PRODUCT_H
 
-#include "../tipos.h"
+#include "../lib.h"
 
 class Product {
 private:

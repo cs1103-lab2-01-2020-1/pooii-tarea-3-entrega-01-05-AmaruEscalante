@@ -6,11 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/clases/LIFO.cpp.o"
   "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/LIFO_Simple.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/clases/LIFO_Simple.cpp.o"
-  "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Order.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/clases/Order.cpp.o"
-  "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Product.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/clases/Product.cpp.o"
-  "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/User.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/clases/User.cpp.o"
-  "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/clases/Vehicle.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/clases/Vehicle.cpp.o"
   "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/ejercicios.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/ejercicios.cpp.o"
+  "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/funciones.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/funciones.cpp.o"
   "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/src/main.cpp" "/home/amaru/Documents/CLionProjects/POO2_HW/tarea3/build/CMakeFiles/tarea3.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
