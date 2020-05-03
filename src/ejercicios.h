@@ -11,6 +11,8 @@
 //Delivery system design
 #include "clases/Order.h"
 #include "clases/Vehicle.h"
+#include "clases/Truck.h"
+#include "clases/Bike.h"
 #include "clases/User.h"
 #include "clases/Product.h"
 #include "clases/Location.h"

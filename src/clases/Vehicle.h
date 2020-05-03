@@ -8,33 +8,47 @@
 #include "../lib.h"
 
 class Vehicle {
-private:
-    int id_vehicle;
-    string name;
-    string state;
+
 public:
-    Vehicle()= default;
-    Vehicle(int id, string pname, string pstate){
-        id_vehicle = id;
-        name = move(pname);
-        state = move(pstate);
+    enum STATUS
+    {
+        FREE,
+        BUSY,
+    };
+
+    Vehicle(STATUS status) {
+        state = FREE;
     }
+
+    Vehicle()= default;
+    Vehicle(int id, STATUS pstate){
+        id_vehicle = id;
+        state = pstate;
+    }
+
+    Vehicle(int capacity):capacity{capacity}{}
 
     void set_id(int id){
         id_vehicle = id;
     }
 
-    void set_name(string name){
-        this->name = move(name);
-    }
-
-    void set_state(string value){
+    void set_state(STATUS value){
         state = value;
     }
 
-    string get_name(){
-        return name;
+    int get_id(int id){
+        return id_vehicle;
     }
+
+
+    STATUS get_state(){
+        return state;
+    }
+
+private:
+    int id_vehicle{};
+    Vehicle::STATUS state;
+    int capacity;
 };
 
 

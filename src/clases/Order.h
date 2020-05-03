@@ -10,29 +10,33 @@
 #include "Product.h"
 #include "Vehicle.h"
 
+
+
 class Order {
-private:
-    int order_id;
-    User user;
-    vector <Product> product;
-    string order_state;
-    double price;
-    Vehicle vehicle;
 public:
+    enum ORD_STATUS {
+        DELIVERED,
+        PROCESSING,
+    };
    // static int order_id;
-    Order(){
+    Order(){}
+
+    Order(ORD_STATUS status) {
+        order_state = PROCESSING;
     }
 
-    Order(User user){
-        order_state = "In process";
+    void set_vehicle(Vehicle vehicleoforder){
+        vehicle = vehicleoforder;
     }
+
+    void set_status (ORD_STATUS stateoforder){
+        order_state = stateoforder;
+    }
+
+
     void add_product(Product p){
         product.push_back(p);
         price += p.get_price();
-    }
-
-    void purchase(){
-
     }
 
     void track_order(){
@@ -44,9 +48,17 @@ public:
         }
 
         cout << "Total price: " << price << endl;
-        cout << "Vehicle: " << vehicle.get_name() << endl;
+
         cout << "State"<< endl;
     }
+
+private:
+    int order_id;
+    User user;
+    vector <Product> product;
+    ORD_STATUS order_state;
+    double price;
+    Vehicle vehicle;
 };
 
 

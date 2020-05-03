@@ -5,40 +5,42 @@
 
 void ejercicio1(){
     //Set locations
+    Product ball;
+    ball.set_product_id(001);
+    ball.set_name("Basketball");
+    ball.set_price(200);
+
+    Product computer;
+    computer.set_product_id(002);
+    computer.set_name("Macbook");
+    computer.set_price(3000);
+
+
     Location Lima, Tienda;
     Lima.set_address("La Molina 123");
     Tienda.set_address("Surco 123");
 
-    Vehicle v1;
-    v1.set_id(1);
-    v1.set_name("Bike");
-    v1.set_state("FREE");
-
-    Vehicle v2;
-    v2.set_state("FREE");
-    v2.set_name("Truck");
-    v2.set_id(2);
+    Truck truck1;
+    truck1.set_id(1);
+    Bike bike1;
+    bike1.set_id(2);
 
     cout<< "Delivery system" << endl;
     User user1;
-    user1.set_name("Raul Lopez");
-    user1.set_location(Lima);
     user1.set_user_id(001);
+    string name;
+    cout << "Insert your Name" << endl;
+    cin >> name;
+    user1.set_name(name);
+    user1.set_location(Lima);
+
     cout << "User1 Registered" << endl;
     user1.print_user();
 
-    cout << "Products :" << endl;
-    Product product1;
-    product1.set_product_id(001);
-    product1.set_name("casco");
-    product1.set_price(200);
-
-    product1.print_user();
     cout << "Order" << endl;
     Order order1;
-    order1.add_product(product1);
-    order1.add_product(product1);
-    order1.add_product(product1);
+    order1.add_product(ball);
+    order1.add_product(computer);
     cout << "Track" << endl;
     order1.track_order();
 }
